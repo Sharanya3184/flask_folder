@@ -1,5 +1,4 @@
 from constant import collection 
-from dotenv import load_dotenv
 
 def create_user():
     user_dict ={
@@ -45,7 +44,6 @@ def create_user():
         else:
             return f'Failed to Delete Data'
            
-
         
     
 
